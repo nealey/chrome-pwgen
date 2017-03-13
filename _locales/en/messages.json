@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "PWGen: Simple password generator",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Simple password generator using material design",
+    "description": "Extension description"
+  }
+}
