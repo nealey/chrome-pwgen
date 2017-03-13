@@ -17,3 +17,11 @@ authors or copyright holders be liable for any claim, damages or other
 liability, whether in an action of contract, tort or otherwise, arising from,
 out of or in connection with the software or the use or other dealings in the
 software.
+
+----
+
+This software uses pieces from other projects:
+
+[Material Design Lite](https://getmdl.io/)
+and
+[Material Design Icons](http://google.github.io/material-design-icons/) are made available by Google under the Apache License Version 2.0.
