@@ -11,10 +11,6 @@ body {
   width: 24em;
 }
 
-.slider {
-  width: 2em;
-}
-
 .fab {
   z-index: 9999;
   position: fixed;
