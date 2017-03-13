@@ -1,6 +1,6 @@
 This is a very simple, but cryptographically decent, password generator.
 
-Click on the extension icon, and it makes a password of length 12
+Click on the extension icon, and it makes a password of length 12.
 You can dial the length up or down and tell it not to include certain character classes,
 and the password is updated automatically.
 
