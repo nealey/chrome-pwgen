@@ -3,7 +3,7 @@
   "name": "__MSG_extName__",
   "short_name": "PWGen",
   "author": "Neale Pickett <neale@woozle.org>",
-  "version": "1.0",
+  "version": "1.1",
   
   "default_locale": "en",
   "description": "__MSG_extDescription__",

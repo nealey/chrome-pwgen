@@ -2,20 +2,28 @@
 <html>
   <head>
     <title>PWGen</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/material.min.css">
     <script src="js/material.min.js"></script>
     <script src="js/popup.js"></script>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
-  <body style="width:26em;">
+  <body>
     <div class="mdl-card">
-      <!--
-      <div class="mdl-card__title">
-        <h1 class="mdl-card__title-text" id="title">PWGen</h1>
-      </div>
-      -->
       <div class="mdl-card__supporting-text">
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="password">
+        </div>
+        <div class="fab">
+          <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored" id="regen">
+            <i class="material-icons">refresh</i>
+          </button>
+        </div>
+        <label for="len">
+          <span>Length: <span id="lentxt">--</span></span>
+          <input class="slider mdl-slider mdl-js-slider" type="range" min="4" max="26" value="12" tabindex="0" id="len">
+        </label>
         <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="num">
           <input type="checkbox" id="num" class="mdl-checkbox__input" checked>
           <span class="mdl-checkbox__label">Numbers</span>
@@ -24,18 +32,7 @@
           <input type="checkbox" id="sym" class="mdl-checkbox__input" checked>
           <span class="mdl-checkbox__label">Symbols</span>
         </label>
-        <label for="len">
-          <input class="mdl-slider mdl-js-slider" type="range" min="4" max="26" value="12" tabindex="0" id="len">
-          <span>Length: <span id="lentxt"></span></span>
-        </label>
-        <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" id="password">
-          <!-- <label class="mdl-textfield__label" for="password">Password</label> -->
-        </div>
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" id="regen">
-          rebuild
-        </button>
-        <p>Password is in your clipboard</p>
+        <p>Password is copied into your clipboard.</p>
       </div>
     </div>
 
