@@ -45,11 +45,8 @@ function regen() {
   password.value = chars.join("");
   
   // Put it on the clipboard
-  let range = document.createRange();
-  range.selectNode(pw);
-  window.getSelection().addRange(range);
+  pw.select();
   document.execCommand('copy');
-  window.getSelection().removeAllRanges();
   
   document.getElementById('lentxt').textContent = len;
 }
