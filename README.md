@@ -1,4 +1,4 @@
-This is a very simple,
+This is a simple,
 but cryptographically not awful,
 password generator.
 
