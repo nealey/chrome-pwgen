@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>PWGen</title>
+    <title>Password Generator</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/material.min.css">
     <script src="js/material.min.js"></script>
@@ -13,7 +13,7 @@
     <div class="mdl-card">
       <div class="mdl-card__supporting-text">
         <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" id="password">
+          <input class="mdl-textfield__input" type="text" spellcheck="false" id="password">
         </div>
         <div class="fab">
           <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored" id="regen">
@@ -32,7 +32,7 @@
           <input type="checkbox" id="sym" class="mdl-checkbox__input" checked>
           <span class="mdl-checkbox__label">Symbols</span>
         </label>
-        <p>Password is copied into your clipboard.</p>
+        <p id="clipboard">Password is copied into your clipboard.</p>
       </div>
     </div>
 

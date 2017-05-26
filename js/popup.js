@@ -1,6 +1,7 @@
-var letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var numbers = "0123456789";
-var symbols = "!@#$^&*()~+-=_";
+// I don't use "O01Il" because they are difficult to distinguish in many fonts :(
+var letters = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ";
+var numbers = "23456789";
+var symbols = "!@#$^&*()~+-=_/?.:";
 
 function randint(range) {
   let a = new Uint32Array(1);
@@ -56,6 +57,7 @@ function setup() {
   document.getElementById('num').addEventListener('change', regen);
   document.getElementById('sym').addEventListener('change', regen);
   document.getElementById('len').addEventListener('input', regen);
+  document.getElementById('clipboard').textContent = chrome.i18n.getMessage("clipboard");
   regen();
 }
 

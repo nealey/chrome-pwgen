@@ -1,10 +1,14 @@
 {
   "extName": {
-    "message": "PWGen: Simple password generator",
+    "message": "Password Generator",
     "description": "Extension name"
   },
   "extDescription": {
     "message": "Simple password generator using material design",
     "description": "Extension description"
+  },
+  "clipboard": {
+    "message": "Password is copied into your clipboard.",
+    "description": "Message indicating every new generated password will be available in the clipboard"
   }
 }
