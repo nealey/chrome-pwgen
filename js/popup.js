@@ -57,7 +57,9 @@ function setup() {
   document.getElementById('num').addEventListener('change', regen);
   document.getElementById('sym').addEventListener('change', regen);
   document.getElementById('len').addEventListener('input', regen);
-  document.getElementById('clipboard').textContent = chrome.i18n.getMessage("clipboard");
+  if (chrome.i18n) {
+    document.getElementById('clipboard').textContent = chrome.i18n.getMessage("clipboard");
+  }
   regen();
 }
 
